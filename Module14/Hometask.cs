@@ -1,8 +1,8 @@
-﻿namespace Hometask03;
+﻿namespace Module14;
 
-public class Program
+public class Hometask
 {
-    static void Main(string[] args)
+    public void Practice_14_3_3()
     {
         var phoneBook = new List<Contact>();
 
@@ -26,6 +26,5 @@ public class Program
             foreach (var record in pagedContacts)
                 Console.WriteLine(record.Name + " " + record.LastName + ": " + record.PhoneNumber);
         }
-
     }
 }
